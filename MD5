@@ -1,0 +1,17 @@
+3a5973856e7b770a0f664d54b768080c *DESCRIPTION
+bc0477fac4bc9cf92272c1b419f2582b *LICENSE
+b59058e11cf3673a86ff2034651a344b *NAMESPACE
+7dd7b9b4b9ce2afc82dde672192c97eb *R/jquery.R
+bf27c35ed04a4c9945f150ccecfdc09a *README.md
+00207c0b4fd17d60a31a47d4373064a2 *inst/lib/AUTHORS.txt
+75308107741f7dcdc39127209c7e3fc8 *inst/lib/LICENSE.txt
+fb2d334dabf4902825df4fe6c2298b4b *inst/lib/jquery-1.12.4.js
+4f252523d4af0b478c810c2547a63e19 *inst/lib/jquery-1.12.4.min.js
+888d4551b8db7c41cda28d95e494f998 *inst/lib/jquery-2.2.4.js
+2f6b11a7e914718e0290410e85366fe9 *inst/lib/jquery-2.2.4.min.js
+11c05eb286ed576526bf4543760785b9 *inst/lib/jquery-3.4.1.js
+220afd743d9e9643852e31a135a9f3ae *inst/lib/jquery-3.4.1.min.js
+543a6a3090e9b6293a3a31252c33ed98 *man/jquery_core.Rd
+b9f6862cdba959b4ca573acd1f323047 *tests/testthat.R
+7b10dbeffa614b230e053742dfa65e36 *tests/testthat/test-jquery.R
+f145343c03aecb62360a1de8b6f65a7a *tools/download.R
