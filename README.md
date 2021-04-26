@@ -1,8 +1,7 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/rstudio/jquerylib.svg?branch=master)](https://travis-ci.org/rstudio/jquerylib)
+[![R-CMD-check](https://github.com/rstudio/jquerylib/workflows/R-CMD-check/badge.svg)](https://github.com/rstudio/jquerylib/actions)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/jquerylib)](https://CRAN.R-project.org/package=jquerylib)
 <!-- badges: end -->
@@ -13,11 +12,10 @@ Obtain ‘jQuery’ as an HTML dependency object
 
 ## Installation
 
-**jquerylib** isn’t yet available from CRAN, but you can install it
-with:
+**jquerylib** can be installed with:
 
 ``` r
-remotes::install_github("rstudio/jquerylib")
+install.packages("jquerylib")
 ```
 
 ## Usage
@@ -36,12 +34,11 @@ jquerylib::jquery_core(3)
 
     ## List of 10
     ##  $ name      : chr "jquery"
-    ##  $ version   : chr "3.5.0"
-    ##  $ src       :List of 2
-    ##   ..$ href: chr "https://code.jquery.com"
-    ##   ..$ file: chr "lib"
+    ##  $ version   : chr "3.6.0"
+    ##  $ src       :List of 1
+    ##   ..$ file: chr "lib/3.6.0"
     ##  $ meta      : NULL
-    ##  $ script    : chr "jquery-3.5.0.js"
+    ##  $ script    : chr "jquery-3.6.0.min.js"
     ##  $ stylesheet: NULL
     ##  $ head      : NULL
     ##  $ attachment: NULL

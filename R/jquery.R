@@ -12,14 +12,14 @@ jquery_core <- function(major_version = 3, minified = getOption("shiny.minified"
   script <- paste0("jquery-", version, if (minified) ".min.js" else ".js")
   htmlDependency(
     "jquery", version,
-    src = list(file = "lib"),
+    src = list(file = file.path("lib", version)),
     package = "jquerylib",
     script = script
   )
 }
 
 expand_version <- function(major_version) {
-  if (major_version == 3) return("3.5.1")
+  if (major_version == 3) return("3.6.0")
   if (major_version == 2) return("2.2.4")
   if (major_version == 1) return("1.12.4")
   stop("major_version must be 1, 2, or 3.")
